@@ -7,18 +7,16 @@
     <body>
         <header>
             <nav class="nav">
-                <ul>
-                    <li><a href="./image_search.html">Go to Image Search</a></li>
-                    <li><a href="./advanced_search.html">Go to Advanced Search</a></li>
-                </ul>
+                <a href="./index.html">Back to Standard Search</a>
             </nav>
-            <h1>Welcome to my customized Google Search!</h1>
+            <h1>Search Images with Google Search!</h1>
         </header>
 
         <main>
             <form class=form action="https://www.google.com/search">
                 <input class="term" type="text" name="q"><br>
-                <input class="submit" type="submit" value="Google Search">
+                <input class="submit" type="submit" value="Image Search">
+                <input type="text" name="tbm" value="isch" hidden>
             </form>
         </main>
 

@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    color: blue;
+    margin: 50px;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+ul {
+    list-style: none;
+}
+.form {
+   text-align: center;
+}
+.term {
+    margin: 10px;
+    border-radius: 20px;
+    width: 300px;
+    height: 34px;
+    font-size: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.submit {
+    margin: 10px;
+    border-radius: 5px;
+    height: 34px;
+}
+.nav {
+    text-align: right;
+    padding: 5px;
+    margin: 10px;
+}
+
+footer {
+    text-align: end;
+    font-size: 10px;
+}
