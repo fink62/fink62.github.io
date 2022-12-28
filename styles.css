@@ -13,6 +13,7 @@ ul {
 }
 .inputRow {
     margin: 7px;
+    max-width: 1000px;
 }
 .label {
     display: inline-block;
