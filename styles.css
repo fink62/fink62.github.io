@@ -13,7 +13,7 @@ ul {
 }
 .label {
     display: inline-block;
-    min-width:200px;
+    width:25%;
     font-size: 14px;
 }
 .inputRow {
@@ -21,7 +21,12 @@ ul {
 }
 .advSInBox {
     display: inline-block;
-    width: 200px;
+    border: 1px solid gray;
+    border-radius: 1px;
+    width: 70%;
+    height: 25px;
+    font-size: 13px;
+    padding: 1px 8px;
 }
 .advSubmit {
     background-color: blue;
