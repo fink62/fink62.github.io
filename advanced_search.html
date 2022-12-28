@@ -5,112 +5,114 @@
         <link rel="stylesheet" href="./styles.css">
     </head>
     <body>
-        <header>
-            <h2>Google</h2>
-            <nav class="nav">
-                <a href="./index.html">Back to Standard Search</a>
-            </nav>
-        </header>
+        <div class="pageArea">
+            <header>
+                <h2>Google</h2>
+                <nav class="nav">
+                    <a href="./index.html">Back to Standard Search</a>
+                </nav>
+            </header>
 
-        <main>
-            <h4>Advanced Search</h4>
+            <main>
+                <h4>Advanced Search</h4>
 
-            <div style="height:1px; border: 1px solid grey; border-bottom: 1px;"></div>
- 
-            <form action="https://www.google.com/search" method="GET" name="f">
-                <div class="formRow">
-                    <div class="labelSpace">
-                        <div class="labelField">
-                            <label for="all" style="font-weight: bolder;">Find pages with...</label>
+                <div style="height:1px; border: 1px solid grey; border-bottom: 1px;"></div>
+    
+                <form action="https://www.google.com/search" method="GET" name="f">
+                    <div class="formRow">
+                        <div class="labelSpace">
+                            <div class="labelField">
+                                <label for="all" style="font-weight: bolder;">Find pages with...</label>
+                            </div>
+                        </div>
+                        <div class="inputSpace">
+                        </div>
+                        <div class="helpSpace">
+                            <div class="helpField">
+                                <span>To do this in the searchbox</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="inputSpace">
-                    </div>
-                    <div class="helpSpace">
-                        <div class="helpField">
-                            <span>To do this in the searchbox</span>
+                    <div class="formRow">
+                        <div class="labelSpace">
+                            <div class="labelField">
+                                <label for="all">all these words:</label>
+                            </div>
+                        </div>
+                        <div class="inputSpace">
+                            <input class="inputField" id="all" type="text" name="as_q">
+                        </div>
+                        <div class="helpSpace">
+                            <div class="helpField">
+                                Type the important words: 
+                                <span class="helpSample">tri-colour rat terrier</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="formRow">
-                    <div class="labelSpace">
-                        <div class="labelField">
-                            <label for="all">all these words:</label>
+                    <div class="formRow">
+                        <div class="labelSpace">
+                            <div class="labelField">
+                                <label for="this">this exact word or phrase:</label>
+                            </div>
+                        </div>
+                        <div class="inputSpace">
+                            <input class="inputField" id="this" type="text" name="as_epq">
+                        </div>
+                        <div class="helpSpace">
+                            <div class="helpField">
+                                Put exact words in quotes: 
+                                <span class="helpSample">"rat terrier"</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="inputSpace">
-                        <input class="inputField" id="all" type="text" name="as_q">
-                    </div>
-                    <div class="helpSpace">
-                        <div class="helpField">
-                            Type the important words: 
-                            <span class="helpSample">tri-colour rat terrier</span>
+                    <div class="formRow">
+                        <div class="labelSpace">
+                            <div class="labelField">
+                                <label for="any">any of these words:</label>
+                            </div>
+                        </div>
+                        <div class="inputSpace">
+                            <input class="inputField" id="any" type="text" name="as_oq">
+                        </div>
+                        <div class="helpSpace">
+                            <div class="helpField">
+                                Type OR between all the words you want: 
+                                <span class="helpSample">miniature OR standard</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="formRow">
-                    <div class="labelSpace">
-                        <div class="labelField">
-                            <label for="this">this exact word or phrase:</label>
+                    <div class="formRow">
+                        <div class="labelSpace">
+                            <div class="labelField">
+                                <label for="none">none of these words:</label>
+                            </div>
+                        </div>
+                        <div class="inputSpace">
+                            <input class="inputField" id="none" type="text" name="as_eq">
+                        </div>
+                        <div class="helpSpace">
+                            <div class="helpField">
+                                Put a minus sign just before words that you don't want: 
+                                <span class="helpSample">-rodent, -"Jack Russell"</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="inputSpace">
-                        <input class="inputField" id="this" type="text" name="as_epq">
-                    </div>
-                    <div class="helpSpace">
-                        <div class="helpField">
-                            Put exact words in quotes: 
-                            <span class="helpSample">"rat terrier"</span>
+                    <div class="formRow">
+                        <div class="labelSpace">
+                            <div class="labelField">
+                                <label for="advSBtn"></label>
+                            </div>
+                        </div>
+                        <div class="inputSpace">
+                            <input class="advSubmit" id="advSBtn" type="submit" value="Advanced Search">
                         </div>
                     </div>
-                </div>
-                <div class="formRow">
-                    <div class="labelSpace">
-                        <div class="labelField">
-                            <label for="any">any of these words:</label>
-                        </div>
-                    </div>
-                    <div class="inputSpace">
-                        <input class="inputField" id="any" type="text" name="as_oq">
-                    </div>
-                    <div class="helpSpace">
-                        <div class="helpField">
-                            Type OR between all the words you want: 
-                            <span class="helpSample">miniature OR standard</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="formRow">
-                    <div class="labelSpace">
-                        <div class="labelField">
-                            <label for="none">none of these words:</label>
-                        </div>
-                    </div>
-                    <div class="inputSpace">
-                        <input class="inputField" id="none" type="text" name="as_eq">
-                    </div>
-                    <div class="helpSpace">
-                        <div class="helpField">
-                            Put a minus sign just before words that you don't want: 
-                            <span class="helpSample">-rodent, -"Jack Russell"</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="formRow">
-                    <div class="labelSpace">
-                        <div class="labelField">
-                            <label for="advSBtn"></label>
-                        </div>
-                    </div>
-                    <div class="inputSpace">
-                        <input class="advSubmit" id="advSBtn" type="submit" value="Advanced Search">
-                    </div>
-                </div>
-            </form>
-        </main>
+                </form>
+            </main>
 
-        <footer>
-            (c) Fink62. Last updated: December, 2022
-        </footer>
+            <footer>
+                (c) Fink62. Last updated: December, 2022
+            </footer>
+        </div>
     </body>
 </html>
