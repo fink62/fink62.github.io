@@ -78,9 +78,13 @@ ul {
     white-space: pre;
 }
 .advSubmit {
-    background-color: blue;
+    background-color: #4d90fe;
     color: white;
+    border: 1px solid #3079ed;
     height: 30px;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .hpForm {
    text-align: center;
