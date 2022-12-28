@@ -22,15 +22,18 @@ body {
 }
 ul {
     list-style: none;
+    line-height: 25px;
 }
 .inputRow {
-    margin: 7px;
     max-width: 1000px;
+    height:36px;
 }
 .label {
     display: inline-block;
     width:20%;
+    height:30px;
     font-size: 14px;
+    vertical-align: middle;
 }
 .advSInBox {
     display: inline-block;
@@ -49,16 +52,15 @@ ul {
     display: inline-block;
     border: none;
     width: 20%;
-    height: 25px;
-    font-size: 10px;
+    height: 30px;
+    font-size: 12px;
     padding-left: 14px;
-
+    vertical-align: middle;
 }
 .advSubmit {
     background-color: blue;
     color: white;
     height: 30px;
-    margin-top: 10px;
 }
 .hpForm {
    text-align: center;
