@@ -1,3 +1,12 @@
+<!--
+CS50W edx curriculum
+project 0: Search
+Created by: Fink62
+
+to do for later:
+keep the help text from moving left when making the window smaller
+On Google site, it just disappears
+-->
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -15,10 +24,19 @@
 
             <main>
                 <h4>Advanced Search</h4>
-
-                <div style="height:1px; border: 1px solid grey; border-bottom: 1px;"></div>
-    
+                <!--
+                    This is how Google creates a thin horizontal line:
+                    <div style="height:1px; border: 1px solid grey; border-bottom: 1px;"></div>
+                -->
+                <hr size="1" color="grey">
                 <form action="https://www.google.com/search" method="GET" name="f">
+                    <!--
+                        Using a row as placeholder for all elements.
+                        Using divs as placeholders (*Space) for 3 elements inside the row.
+                        Using nested divs for the content fields (*Field) on top of the placeholders.
+                        Using the <span> element for applying monospace to help samples is what I learned from Google :).
+                        Labels and help texts copied from Google's Advanced Search page.
+                    -->
                     <div class="formRow">
                         <div class="labelSpace">
                             <div class="labelField">
