@@ -5,6 +5,18 @@ h1 {
     margin-top: 150px;
     margin-bottom: 20px;
 }
+h2 {
+    color: blue;
+    font-weight: lighter;
+}
+h4 {
+    color: rgb(216, 58, 58);
+    font-weight: lighter;
+}
+h5 {
+    color: black;
+    font-weight: lighter;
+}
 body {
     font-family: Arial, sans-serif;
 }
