@@ -2,27 +2,55 @@
 <html lang="en">
     <head>
         <title>Google Advanced Search</title>
-        <style>
-            #nav {
-                text-align: right;
-            }
-        </style>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <header>
-
+            <nav class="nav">
+                <a href="./index.html">Back to Standard Search</a>
+            </nav>
+            <h3>Google</h3>
+            <h4>Advanced Search</h4>
+            <h5>Find pages with...</h5>
         </header>
-        <nav id="nav">
-            <a href="./index.html">Back to Standard Search</a>
-        </nav>
+
         <main>
             <form action="https://www.google.com/search">
-                <input type="text" name="q">
-                <input type="submit" value="Advanced Search">
+                <div class="inputRow">
+                    <div class="label">
+                        <label for="all">all these words:</label>
+                    </div>
+                    <input class="advBox" id="all" type="text" name="as_q">
+                </div>
+                <div class="inputRow">
+                    <div class=label>
+                        <label for="this">this exact word or phrase:</label>
+                    </div>
+                    <input class="advBox" id="this" type="text" name="as_epq">
+                </div>
+                <div class="inputRow">
+                    <div class=label>
+                        <label for="any">any of these words:</label>
+                    </div>
+                    <input class="advBox" id="any" type="text" name="as_oq">
+                </div>
+                <div class="inputRow">
+                    <div class=label>
+                        <label for="none">none of these words:</label>
+                    </div>
+                    <input class="advBox" id="none type="text" name="as_eq">
+                </div>
+                <div class="inputRow">
+                    <div class=label>
+                        <label for="none"></label>
+                    </div>
+                    <input class="advSubmit" type="submit" value="Advanced Search">
+                </div>
             </form>
         </main>
-        <footer>
 
+        <footer>
+            Last updated: December, 2022
         </footer>
     </body>
 </html>
