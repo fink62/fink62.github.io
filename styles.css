@@ -1,3 +1,9 @@
+/*
+CS50W edx curriculum
+project0: Search
+Created by: Fink62
+*/
+
 .myPageArea {
     padding-left: 35px;
 }
@@ -23,16 +29,43 @@ h5 {
 body {
     font-family: Arial, sans-serif;
 }
-ul {
+.gNavbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     list-style: none;
-    line-height: 25px;
+}
+.gNavbarItem {
+    margin: 10px;
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+a:active {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
 }
 .formRow {
     max-width: 1140px;
     height: 42px;
 }
+.centered-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
 .labelSpace {
-    display: inline-block;
+    display: flex;
     min-width: 167px;
     width: 16%;
     height: 42px;
@@ -45,7 +78,8 @@ ul {
     vertical-align: middle;
 }
 .inputSpace {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
     width: 50%;
     height: 42px;
     vertical-align: middle;
@@ -60,7 +94,8 @@ ul {
     vertical-align: baseline;
 }
 .helpSpace {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
     width: 30%;
     min-width: 160px;
     font-size: 11px;
@@ -90,11 +125,10 @@ ul {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.hpForm {
-   text-align: center;
-}
-.searchBox {
-    margin: 10px;
+.roundSearchBox {
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
     border: 1px solid gray;
     border-radius: 24px;
     background-color: transparent;
@@ -109,14 +143,4 @@ ul {
     border-width: 1px;
     border-radius: 5px;
     height: 34px;
-}
-.nav {
-    text-align: right;
-    padding: 5px;
-}
-
-footer {
-    text-align: center;
-    font-size: 10px;
-    margin-top: 100px;
 }

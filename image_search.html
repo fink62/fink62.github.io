@@ -1,6 +1,6 @@
 <!--
 CS50W edx curriculum
-project 0: Search
+project0: Search
 Created by: Fink62
 -->
 <!DOCTYPE html>
@@ -14,22 +14,27 @@ Created by: Fink62
     </head>
     <body>
         <header>
-            <nav class="nav">
-                <a href="./index.html">Back to Standard Search</a>
-            </nav>
-            <h1>Google Image Search</h1>
+            <div>
+                <ul class="gNavbar">
+                    <li class="ngNavbarItem"><a href="./index.html">Google</a></li>
+                </ul>
+            </div>
         </header>
 
         <main>
-            <form class="hpForm" action="https://www.google.com/search">
-                <input class="searchBox" type="text" name="q"><br>
-                <input class="submitBtn" type="submit" value="Image Search">
-                <input type="text" name="tbm" value="isch" hidden>
-            </form>
-        </main>
+            <div class="centered-item">
+                <img src="google_images.png" alt="Google images logo" height="92px">
+            </div>
 
-        <footer>
-            (c) Fink62. Last updated: December, 2022
-        </footer>
+            <div class="centered-item">
+                <form action="https://www.google.com/search">
+                    <input class="roundSearchBox" type="text" name="q">
+                    <div class="centered-item">
+                        <input class="submitBtn" type="submit" value="Image Search">
+                        <input type="hidden" name="tbm" value="isch">    
+                    </div>
+                </form>
+            </div>
+        </main>
     </body>
 </html>
