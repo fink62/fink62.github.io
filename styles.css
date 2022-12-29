@@ -4,28 +4,6 @@ project0: Search
 Created by: Fink62
 */
 
-.myPageArea {
-    padding-left: 35px;
-}
-h1 {
-    text-align: center;
-    font-weight: lighter;
-    color: blue;
-    margin-top: 150px;
-    margin-bottom: 20px;
-}
-h2 {
-    color: blue;
-    font-weight: lighter;
-}
-h4 {
-    color: rgb(216, 58, 58);
-    font-weight: lighter;
-}
-h5 {
-    color: black;
-    font-weight: lighter;
-}
 body {
     font-family: Arial, sans-serif;
 }
@@ -33,6 +11,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    align-items: center;
     list-style: none;
 }
 .gNavbarItem {
@@ -53,19 +32,70 @@ a:active {
 a:hover {
     color: black;
 }
-.formRow {
-    max-width: 1140px;
-    height: 42px;
+.centeredLogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
 }
-.centered-item {
+.centeredItem {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin: 10px;
 }
-.labelSpace {
+.roundSearchBox {
     display: flex;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 584px;
+    max-width: 584px;
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-right: 15x;
+}
+.mainSubmitBtn {
+    height: 34px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.advH1 {
+    color: #d93025;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.advDivider {
+    border-bottom: 1px solid #ebebeb;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.formRowSpace {
+    max-width: 1140px;
+    height: 42px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+.labelSpace {
+    display: inline-block;
     min-width: 167px;
     width: 16%;
     height: 42px;
@@ -78,24 +108,22 @@ a:hover {
     vertical-align: middle;
 }
 .inputSpace {
-    display: flex;
-    flex-direction: row;
+    display: inline-block;
     width: 50%;
     height: 42px;
     vertical-align: middle;
 }
 .inputField {
-    border: 1px solid gray;
     border-radius: 1px;
-    width: 99%;
-    height: 28px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
     font-size: 13px;
-    padding-left: 4px;
-    vertical-align: baseline;
+    height: 25px;
+    padding: 1px 8px;
+    width: 99%;
 }
 .helpSpace {
-    display: flex;
-    flex-direction: row;
+    display: inline-block;
     width: 30%;
     min-width: 160px;
     font-size: 11px;
@@ -115,32 +143,19 @@ a:hover {
     font-family: monospace;
     white-space: pre;
 }
-.advSubmit {
-    background-color: #4d90fe;
-    color: white;
-    border: 1px solid #3079ed;
-    border-radius: 1px;
+.advSubmitBtn {
     height: 30px;
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
     float: right;
     margin-top: 10px;
-    margin-bottom: 10px;
-}
-.roundSearchBox {
-    display:flex;
-    justify-content: center;
-    margin-top: 30px;
-    border: 1px solid gray;
-    border-radius: 24px;
-    background-color: transparent;
-    width: 400px;
-    height: 44px;
-    font-size: 16px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.submitBtn {
-    margin: 10px;
-    border-width: 1px;
-    border-radius: 5px;
-    height: 34px;
+    margin-right: -12px;
 }
