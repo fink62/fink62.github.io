@@ -17,7 +17,7 @@ Created by: Fink62
     </head>
     <body>
         <header>
-            <h1>Full Stack Web Developer Course</h1>
+            <h1>Full-Stack Web Developer Course</h1>
         </header>
 
         <main>
@@ -106,17 +106,25 @@ Created by: Fink62
                     <li><label for="">Checkbox</label>
                     <input type="checkbox"></li>
                     <li><label for="">Radio Button</label>
-                    <input type="radio" name="style" id="veggie" Value="v">
+                    <input type="radio" name="iStyle" id="veggie" Value="v">
                     <label for="veggie">Veggie</label>
-                    <input type="radio" name="style" id="carnivor" Value="c">
+                    <input type="radio" name="iStyle" id="carnivor" Value="c">
                     <label for="carnivor"></label>Carnivor</li>
                     <li><label for="">Email</label>
-                    <input type="mail"></li>
+                    <input type="email"></li>
                     <li><label for="">Color</label>
                     <input type="color"></li>
                     <li><label for="">Password</label>
                     <input type="password"></li>
+                    <li><label for="">Text area</label>
+                    <textarea name="iMsg" rows="10" cols="100"></textarea></li>    
                 </ul>
+            </form>
+            <form action="mailto:joerg@dadada.io" method="post">
+                <label for="">Your name</label><input type="text" name="iName"><br>
+                <label for="">Your email-address</label><input type="email" name="iMailAddr"><br>
+                <label for="">Your message</label><textarea name="iMailBody" rows="10" cols="50"></textarea>
+                <input type="submit" name="iSend" value="send">
             </form>
         </main>
     </body>
