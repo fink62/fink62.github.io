@@ -4,7 +4,7 @@ Created by: Fink62
 */
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Merriweather', serif;
 }
 .gNavbar {
     display: flex;
@@ -16,18 +16,12 @@ body {
 .gNavbarItem {
     margin: 10px;
 }
-a:link {
-    color: Blue;
-    text-decoration: none;
-}
-a:visited {
-    color: Blue;
-    text-decoration: none;
-}
-a:active {
+
+a {
+    font-family: 'Montserrat', sans-serif;
     color: Blue;
     text-decoration: none;
 }
 a:hover {
-    color: Blue;
+    color: lightblue;
 }
